@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_instance" "TD_Bank_SRVR" {
    ami = "ami-06640050dc3f556bb"
-   instance_type = "t2.micro"     
+   instance_type = "t2.medium"     
                                  
    tags = {
    Name = "Test_Instance"

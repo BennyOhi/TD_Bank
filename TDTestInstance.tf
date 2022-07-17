@@ -8,7 +8,7 @@ resource "aws_instance" "TD_Bank_SRVR" {
    instance_type = "t2.micro"     
                                  
    tags = {
-   Name = "Test_Server"
+   Name = "Test_Instance"
          }
                                    }
     
